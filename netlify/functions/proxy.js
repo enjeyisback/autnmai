@@ -12,7 +12,7 @@ exports.handler = async function(event, context) {
 
     return {
         statusCode: response.status,
-        headers: response.headers.raw(),
+        headers: { 'Content-Type': 'text/html' },
         body: body
     };
 };
