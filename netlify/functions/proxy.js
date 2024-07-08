@@ -4,8 +4,7 @@ exports.handler = async function(event, context) {
     const url = `https://www.auntm.ai${event.path}`;
     const response = await fetch(url, {
         method: event.httpMethod,
-        headers: event.headers,
-        body: event.body
+        headers: { 'Content-Type': 'text/html' }
     });
 
     const body = await response.text();
