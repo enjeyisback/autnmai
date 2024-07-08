@@ -1,7 +1,7 @@
 {
-  "name": "proxy-site",
+  "name": "autnmai",
   "version": "1.0.0",
-  "description": "A proxy for AuntM",
+  "description": "Proxy for AuntM",
   "main": "index.js",
   "dependencies": {
     "node-fetch": "^2.6.1"
