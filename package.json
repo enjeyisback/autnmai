@@ -1,0 +1,15 @@
+{
+  "name": "proxy-site",
+  "version": "1.0.0",
+  "description": "A proxy for AuntM",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "echo 'No build step needed'"
+  },
+  "author": "",
+  "license": "ISC"
+}
